@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- for importing socket.io to the server -->
+    <script src="http://localhost:4000/socket.io/socket.io.js"></script>
+
+<script>
+    const form =document.querySelector('#form')
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- Linking the css file -->
+    <link rel="stylesheet" href="css/question.css">
+
+
+    <title>Questions</title>
+</head>
+<body>
+    <style>
+
+    body {background-image: url('Question-Mark.png');
+        background-repeat: repeat;
+      background-attachment: fixed; 
+  background-size: 60% 90%;
+}
+ </style>
+<!-- form for the Questions -->
+    <div class="centerForm">
+	
+        <form id="form" autocomplete="on">
+            <h1>Questions</h1>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend"></div>
+                    <div id="question"></div>                        <!-- <input required type="text" id="question" name="question" class="form-control" placeholder="Enter Question" size="50" required> -->
+
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button span class="input-group-text" >A<i class="0pt1"></i></span>&nbsp;
+                        <div id="option1"></div> </button>
+                        <!-- <input required  type="text" id="option1" name="option1" class="form-control" placeholder="Enter option"> -->
+                    </div>
+                </div>
+            <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button span class="input-group-text" >B<i class="0pt2"></i></span>&nbsp;
+                            <div id="option2"></div> </button>
+                        <!-- <input required  type="text" id="option2" name="option2" class="form-control" placeholder="Enter option"> -->
+                    </div>
+            </div>
+            <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button span class="input-group-text" >C<i class="0pt3"></i></span>&nbsp;
+                            <div id="option3"></div> </button>
+                        <!-- <input required  type="text" id="option3" name="option3" class="form-control" placeholder="Enter option"> -->
+                    </div>
+            </div>
+            <!-- <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <label for="Answers" class="answer">Choose answer:</label>&nbsp;
+
+                    <select name="Answers" id="correct_option">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+
+                    </select>
+                </div>
+            </div> -->
+            <img src='https://media.giphy.com/media/Up7Jqi6HeCzHKfBPYJ/giphy.gif' height="8%" width="9%">
+			 
+			  <input type="button" id="next" alignclass="button" onclick="nextPage()" class="button1"value="Next" /> 
+           <!-- <input type="button" id="submit" onclick="displaydata()" class="button" value="Submit"/> -->
+           
+            <img src='https://media.giphy.com/media/7JQTn2oiXKfQJ6lAJI/giphy.gif' height="6%" width="6%">
+        </form>
+		 
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="student.js">
+        
+    </script> 
+</body>
+</html>
+
+
+   
+
