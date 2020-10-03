@@ -24,8 +24,8 @@ Node server.js
 * [RealTime Quiz](https://github.com/aayushhh/Real-time-quizApp)
 
 
-![Screenshot](Frontend/ss1.png)
-![Screenshot](Frontend/ss2.png)
-![Screenshot](Frontend/ss3.png)
-![Screenshot](Frontend/ss4.png)
-![Screenshot](Frontend/ss5.png)
+![Screenshot](Quiz App Master/ss1.png)
+![Screenshot](Quiz App Master/ss2.png)
+![Screenshot](Quiz App Master/ss3.png)
+![Screenshot](Quiz App Master/ss4.png)
+![Screenshot](Quiz App Master/ss5.png)
