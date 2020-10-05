@@ -6,8 +6,6 @@ function addQuestion() {
     console.log(questionArray);
     $('#form').trigger("reset");
 }
-
-
 function displaydata() {
     addQuestiontoArray();
     $('#form').hide();
@@ -25,9 +23,6 @@ function addQuestiontoArray() {
         }
     });
     questionArray.push(questionObject)
-
-
-
 }
 function sendQuestionToServer() {
     // define socket.io nd recieve anbd send the messages
@@ -40,3 +35,8 @@ function sendQuestionToServer() {
     });
 }
 
+
+
+
+
+    

@@ -3,6 +3,8 @@
 <head>
 <!-- for importing socket.io to the server -->
     <script src="http://localhost:4000/socket.io/socket.io.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
 
 <script>
     const form =document.querySelector('#form')
@@ -51,7 +53,7 @@
             </div>
             <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" ><i class="opt3"></i>C</span>&nbsp;
+                        <span class="input-group-text" ><i class="opt3"></i>C</span>
                         <input required  type="text" id="option3" name="option3" class="form-control" placeholder="Enter option">
                     </div>
             </div>
@@ -76,10 +78,11 @@
         </form>
 		 
     </div>
+    <!-- <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="question.js">
         
-    </script> 
+    </script>
 </body>
 </html>
 
